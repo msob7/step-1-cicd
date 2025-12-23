@@ -1,0 +1,58 @@
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #704545;
+    background-image: url('LOGO IS&T May 2023.jpg');
+	background-size: cover ; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}   
+/* Form Group */
+.form-group {
+    margin-bottom: 20px;
+	
+
+  
+        background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background */
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 400px;
+        margin: 50px auto; /* Center the form horizontally and add vertical spacing */
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+      }
+  
+
+
+
+.btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #01051e;
+    color: rgb(255, 119, 0);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+	
+}
+
+/* Button Hover Effect */
+.btn:hover {
+    background-color: #0861e7;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+
+
